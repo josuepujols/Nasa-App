@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Assets//style.css">
+        <link rel="shortcut icon" href="./Assets//58429400a6515b1e0ad75acc.png" type="image/x-icon">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <div class="container-fluid">
+          <a id="link-home" class="navbar-brand" href="home.html">
+            <img id="img-home-logo" src="Assets/58429400a6515b1e0ad75acc.png" alt="">
+          </a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a id="boton-close" class="dropdown-item justify-content-center" href="#">Cerrar Sesion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <section id="container-home">
+            <div id="img-home"> 
+                <img id="imagen" alt="nasa-logo">
+            </div>
+
+            <div id="table-container">
+              <!--Tabla para mostrar la informacion-->
+              <table id="table" class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="header" colspan="1" scope="row">Nombre</th>
+                    <td class="datos"></td>
+                  </tr>
+                  <tr>
+                    <th class="header" scope="row">Fecha</th>
+                    <td class="datos"></td>
+                  </tr>
+                  <tr>
+                    <th class="header" scope="row">Autor</th>
+                    <td class="datos"></td>
+                  </tr>
+                  <tr>
+                    <th class="header" scope="row">Descripción</th>
+                    <td class="datos"></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </section>
+
+          <!--Script JS-->
+          <script src="JS/home.js"></script>
+    </body>
+</html>
+
